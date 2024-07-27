@@ -209,3 +209,25 @@ body{
 .container.active .right{
     transform: translateX(200%);
 }
+@media(max-width:700px){
+
+    .container button{
+        padding: 10px 20px;
+    }
+    .social{
+        display: inline-flex;
+        margin: 20px 1px;  
+    }
+    .signin h1{
+        font-size: 25px;     
+        padding: 5px;
+    }
+    span{
+        font-size: 10px;
+        text-align: center;
+    }
+    .signin a{
+        margin: 5px 0px;
+        text-align: center;
+    }     
+}
